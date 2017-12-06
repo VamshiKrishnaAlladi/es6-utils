@@ -1,6 +1,6 @@
 {
     "name": "@vka/es6-utils",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "A Collection of utility functions for ES6 made in ES6",
     "main": "src/es6-utils.js",
     "scripts": {
