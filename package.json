@@ -1,0 +1,31 @@
+{
+    "name": "@vka/es6-utils",
+    "version": "1.0.0",
+    "description": "A Collection of utility functions for ES6 made in ES6",
+    "main": "src/es6-utils.js",
+    "scripts": {
+        "test": "jest --verbose",
+        "watch:test": "jest --watchAll --verbose"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/VamshiKrishnaAlladi/es6-utils.git"
+    },
+    "keywords": [
+        "Utilities",
+        "ES6",
+        "utils"
+    ],
+    "author": "Vamshi Krishna Alladi <vamshikrishnaalladi.me@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/VamshiKrishnaAlladi/es6-utils/issues"
+    },
+    "homepage": "https://github.com/VamshiKrishnaAlladi/es6-utils#readme",
+    "devDependencies": {
+        "eslint": "^4.12.1",
+        "eslint-config-airbnb-base": "^12.1.0",
+        "eslint-plugin-import": "^2.8.0",
+        "jest": "^21.2.1"
+    }
+}
