@@ -8,7 +8,7 @@ describe('Module es6-utils/mandate:', () => {
         expect(mandate).toBeInstanceOf(Function);
     });
 
-    test('should throw a MandatoryParamMissingError', () => {
+    test('should throw a MandatoryParamMissingError when called', () => {
         const mandate = require('./mandate');
 
         expect(mandate).toThrow(MPMError);
