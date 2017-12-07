@@ -1,4 +1,4 @@
-const MPMError = require('./errors/mandatory-param-missing');
+const MPMError = require('./../errors/mandatory-param-missing');
 
 function mandate(paramName) {
     throw new MPMError(paramName);
