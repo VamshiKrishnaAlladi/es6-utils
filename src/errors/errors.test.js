@@ -5,4 +5,10 @@ describe('Module es6-utils/errors:', () => {
 
         expect(errors).toBeInstanceOf(Object);
     });
+
+    test('should include "MandatoryParamMissingError" in the export object', () => {
+        const errors = require('./');
+
+        expect(errors).toHaveProperty('MandatoryParamMissingError');
+    });
 });
