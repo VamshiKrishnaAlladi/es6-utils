@@ -5,7 +5,8 @@
     "main": "es6-utils.js",
     "scripts": {
         "test": "jest --verbose",
-        "watch:test": "jest --watchAll --verbose"
+        "watch:test": "jest --watchAll --verbose",
+        "lint": "eslint . --fix"
     },
     "repository": {
         "type": "git",
