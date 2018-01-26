@@ -4,8 +4,8 @@
     "description": "A Collection of utility functions for ES6 made in ES6",
     "main": "es6-utils.js",
     "scripts": {
-        "test": "jest --verbose",
-        "watch:test": "jest --watchAll --verbose",
+        "test": "jest --verbose --coverage",
+        "watch:test": "jest --watchAll --verbose --coverage",
         "lint": "eslint . --fix"
     },
     "repository": {
